@@ -51,8 +51,6 @@ function game() {
     const playerSelection = prompt("Choose Rock, Paper, or Scissor");
     console.log(`Your choice: ${playerSelection} and Computer choice: ${computerSelection}`);
     console.log(playRound(playerSelection, computerSelection));
-    //console.log("Your score is: " + playerScore);
-    //console.log("Computer score is: " + computerScore);
   }
   if (playerScore > computerScore) {
     console.log("You won the game!");
